@@ -159,10 +159,12 @@ table {
 img,
 video,
 svg {
-  max-width: 110%;
+  /* max-width: 110%; */
+  object-fit: cover;
+  width: 1106px;
 }
 [data-theme] {
-  background-color: var(--color-bg, #fff);
+  background-color: hsl(0, 0%, 0%);
   color: var(--color-contrast-high, #313135);
 }
 :root {
@@ -9498,8 +9500,8 @@ body {
 .yx-ncz {
   position: relative;
   z-index: 1;
-  width: 100%;
-  height: 100%;
+  width: 88%;
+  height: 103%;
   flex-shrink: 0;
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md),
@@ -9512,6 +9514,7 @@ body {
       );
   scroll-snap-align: center;
   transition: background-color var(--pre-slider-gap-transition-duration);
+  align-content: center;
 }
 .yx-ncz:not(:last-child) {
   margin-right: var(--pre-slider-gap);
