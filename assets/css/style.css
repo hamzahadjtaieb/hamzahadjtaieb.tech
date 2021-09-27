@@ -161,7 +161,7 @@ video,
 svg {
   /* max-width: 110%; */
   object-fit: cover;
-  width: 1056px;
+  width: 1036px;
 }
 [data-theme] {
   background-color: hsl(0, 0%, 0%);
