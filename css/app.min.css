@@ -2478,7 +2478,8 @@ a.btn {
     padding: 85px 55px 65px;
     background: #fff;
     border-radius: 40px;
-    text-align: center; }
+    text-align: center;
+    height: 754px; }
     @media only screen and (max-width: 1365px) {
       .details__item {
         padding: 56px 32px 46px; } }
